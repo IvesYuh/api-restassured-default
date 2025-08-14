@@ -1,0 +1,174 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "idArquivo": {
+        "type": "integer"
+      },
+      "nome": {
+        "type": "string"
+      },
+      "descricao": {
+        "type": "string"
+      },
+      "tamanho": {
+        "type": "integer"
+      },
+      "data": {
+        "type": "string",
+        "format": "^\\d{2}-\\d{2}-\\d{4} \\d{2}:\\d{2}$"
+      },
+      "idPasta": {
+        "type": ["integer", "null"]
+      },
+      "tipo": {
+        "type": ["string", "null"]
+      },
+      "extensao": {
+        "type": "string"
+      },
+      "local": {
+        "type": "string"
+      },
+      "idOperador": {
+        "type": ["integer", "null"]
+      },
+      "tipoDocumento": {
+        "type": ["string", "null"]
+      },
+      "dataInicio": {
+        "type": ["string", "null"],
+        "format": "^\\d{2}-\\d{2}-\\d{4} \\d{2}:\\d{2}$"
+      },
+      "dataFinal": {
+        "type": ["string", "null"],
+        "format": "^\\d{2}-\\d{2}-\\d{4} \\d{2}:\\d{2}$"
+      },
+      "vigencia": {
+        "type": ["string", "null"]
+      },
+      "confidencial": {
+        "type": "string",
+        "enum": ["S", "N"]
+      },
+      "idTelecomunicacao": {
+        "type": ["integer", "null"]
+      },
+      "mimeType": {
+        "type": "string"
+      },
+      "imagem": {
+        "type": "array",
+        "items": {}
+      },
+      "qReciboPagamentoAutomamo": {
+        "type": "array",
+        "items": {}
+      },
+      "pagamentoVendedorNotaAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "solicitacaoCarteirinhaAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "anexoConfiguracoesWeb": {
+        "type": "array",
+        "items": {}
+      },
+      "mensalidadeXmlTiss": {
+        "type": "array",
+        "items": {}
+      },
+      "prospectPedidoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "guiaEventoAdversoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "anexoAtendimentoCentral": {
+        "type": "array",
+        "items": {}
+      },
+      "movimentacaoCadastralAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "contratoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "beneficiarioDeclaracaoSaudeAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "procedimentoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "pacoteAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "produtoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "contaAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "protocoloPedidoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "mensagemCrmAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "reembolsoAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "caixaSaidaAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "anexoAtendimento": {
+        "type": "array",
+        "items": {}
+      },
+      "atualizacaoPrestadorAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "tipoDocumentos": {
+        "type": "array",
+        "items": {}
+      },
+      "campanhaAnexo": {
+        "type": "array",
+        "items": {}
+      },
+      "beneficiarioAnexo": {
+        "type": "array",
+        "items": {}
+      }
+    },
+    "required": [
+      "idArquivo",
+      "nome",
+      "descricao",
+      "tamanho",
+      "data",
+      "extensao",
+      "local",
+      "confidencial",
+      "mimeType"
+    ]
+  }
+}
